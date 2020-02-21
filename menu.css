@@ -1,0 +1,69 @@
+.row {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.burger {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+
+}
+
+button {
+    width:300px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #ED7A03;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+p {
+    color: red;
+    font-weight: bolder;
+    margin: 8px;
+}
+
+h3{
+    margin: 8px;
+}
+
+.bottom-container {
+    background-color: #ead9c7;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.map {
+    border: solid;
+    border-color: #ED7A03;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+
+}
+
+.Chat{
+    border: solid;
+    border-color: #ED7A03;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+iframe {
+    padding-right: 20px;
+    padding-left: 20px;
+}
